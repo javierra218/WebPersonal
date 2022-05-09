@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background-image:url('./archivos/fondo.svg');
+  background-size:cover;
+  color:white;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+header {
+  float: left;
+  height: 120px;
+  width: 50%;
+  background: #333;
+  line-height: 120px;
+  text-align: center;
+  margin: 0px;
+  color: #c0c0c0;
+}
+
+small {
+  font-size: smaller;
+}
+
+
+header h3 {
+  font-size: 1.7em;
+  padding: 0px 150px 0px 0px;
+}
+
+nav ul li {
+  float: left;
+  color: rgb(45, 255, 245);
+  margin: 10px;
+  line-height: 110px;
+  font-size: 1em;
+  padding: 0px 0px 0px 30px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #c0c0c0;
+}
+
+nav {
+  float: left;
+  height: 120px;
+  width: 50%;
+  background: #333;
+  line-height: 140px;
+  margin: 0;
+}
+
+nav a {
+  padding: 0.5rem 0.5rem;
+}
+
+nav a:hover {
+  background: rgb(45, 255, 245);
+  border-radius: 15px;
+}
+
+.sort {
+  clear: both;
+}
+
+section.presentacion {
+  text-align: center;
+}
+
+span {
+  color: rgb(45, 255, 245);
+  font-weight: 600;
+}
+
+
+#enlaces {
+  
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  font-size: 40px;
+}
+
+
+
+q::before {
+  content: "";
+  width: 60px;
+  height: 2px;
+  background: rgb(255, 255, 255);
+}
+q::after {
+  content: "";
+  width: 60px;
+  height: 2px;
+  background: rgb(255, 255, 255);
+}
+
+#pie {
+  display: flex;
+  justify-content: space-around;
+  color: #333;
+  font-size: 1.2em;
+  margin: 0px auto;
+  text-align: s;
+
+}
+
+.clearfix{
+  clear: both;
+}
+
+p{
+  font-size: 20px;
+  box-sizing: border-box;
+    font-family: Raleway,sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    
+}
+
+section.video {
+  /*margin: 2% 40% 20% 20%;*/
+  margin: 0 auto;
+  text-align: center;
+ 
+}
+
+
+
+
+
+    
+
+
+
